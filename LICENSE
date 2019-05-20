@@ -1,0 +1,94 @@
+Libraries & Licenses
+
+backbonejs
+- website: http://backbonejs.org/
+- location: ./backbonejs/release/v1.3.3/backbone.min.js
+- license: MIT software license (./backbonejs/LICENSE.txt)
+- purpose: MVC and REST interface
+
+bootstrap
+- website: https://getbootstrap.com/docs/3.3/
+- location: ./bootstrap/bootstrap-3.3.7/
+- license: MIT software license (./bootstrap/LICENSE)
+- purpose: Style Framework
+
+D3
+- website: https://d3js.org/
+- location: ./d3/kmap-original/d3.js
+- license: 3-Clause BSD Licesnse (https://opensource.org/licenses/BSD-3-Clause)
+- purpose: Edge drawing
+- note: the software required this version of d3 for a long time in order to be compatible with Chris' various versions. Over time d3 was discarded and the only remaining d3 call still uses this version.
+
+dagre
+- website: https://github.com/dagrejs/dagre
+- location: ./dagre/
+- license: MIT software license (./dagre/v0.7.4/LICENSE)
+- purpose: Graph Layout
+- note: the ios and standard versions require different implementations of dagre meaning that both the kmap-original version and the more recent 0.7.4 need to be preserved.
+
+fuzzysearch
+- website: https://github.com/dagrejs/dagre
+- location: ./fuzzysearch/v0/index.js
+- license: MIT software license (./fuzzysearch/v0/LICENSE)
+- purpose: Broad-phase searching on local machine
+
+graphlib
+- website: https://github.com/dagrejs/graphlib
+- location: ./graphlib/v2.1.1/index.js
+- license: MIT software license (./graphlib/v2.1.1/LICENSE)
+- purpose: Dependency of dagre
+
+jquery
+- website: https://jquery.com/
+- location: ./jquery/
+- license: MIT software license (https://jquery.org/license/)
+- purpose: DOM Manipulation
+
+jsclass
+- website: http://jsclass.jcoglan.com/
+- location: ./jsclass/
+- license: MIT software license (./jsclass/v4.0.5/jsclass/LICENSE.md)
+- purpose: High performance javascript data structures
+
+lz-string
+- website: https://github.com/pieroxy/lz-string
+- location: ./lz-string/v1.4.4/lz-string-min.js
+- license: MIT software license (./lz-string/LICENSE)
+- purpose: String compression
+
+Mobile-Detect
+- website: http://mobiledetect.net/
+- location: ./Mobile-Detect/v2.8.26/Mobile_Detect.php
+- license: MIT software license (./Mobile-Detect/v2.8.26/LICENSE.txt)
+- purpose: Detect mobile device use
+
+mustachejs
+- website: https://github.com/janl/mustache.js
+- location: ./mustachejs/v2.2.1/mustache.min
+- license: MIT software license (./mustachejs/v2.2.1/LICENSE)
+- purpose: javascript templating
+
+requirejs
+- website: https://requirejs.org/
+- location: ./require/v2.3.6/
+- license: MIT software license (./require/v2.3.6/LICENSE)
+- purpose: file and module loader
+
+textjs
+- website: https://github.com/requirejs/text/
+- location: ./textjs/v2.0.15/text.js
+- license: MIT software license (./textjs/v2.0.15/LICENSE)
+- purpose: requirejs template loading
+
+underscorejs
+- website: https://underscorejs.org/
+- location: ./underscore/debug/v1.8.3/underscore.js
+- license: MIT software license (See ./underscore/debug/v1.8.3/underscore.js)
+- purpose: Promise chaining and backbonejs dependency
+
+velocityjs
+- website: http://velocityjs.org/
+- location: ./velocityjs/v1.5.0/
+- license: MIT software license (./velocityjs/v1.5.0/LICENSE.md)
+- purpose: SVG Animation
+
